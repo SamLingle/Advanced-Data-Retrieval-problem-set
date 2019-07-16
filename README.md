@@ -21,10 +21,22 @@ Matplotlib
  9. Design a Flask API based on the previously developed queries.
 
 ## How to Run:
+ ### Data Cleaning
+ 1. Download or clone this repository.
+ 2. cd into the repo folder and run jupyter notebook with terminal
+```
+$ cd Honolulu-Climate-Data-SQLite-Retrieval
+$ jupyter notebook
+```
+ 3. Once the notebook opens, open the climate_checker.ipynb file.
 
-
-
-
+ ### Climate App
+ 1. run 'app.py'
+ ```
+$ cd Honolulu-Climate-Data-SQLite-Retrieval
+$ python3 app.py
+```
+ 2. visit [http://localhost/5000](http://localhost/5000) on your browser
 
 
 ## Results:
