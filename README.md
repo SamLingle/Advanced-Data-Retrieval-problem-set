@@ -45,34 +45,18 @@ $ python3 app.py
 
 ![Precipitation_code](https://github.com/SamLingle/Honolulu-Climate-Data-SQLite-Retrieval/blob/master/data_exploration_png_files/Precipitation_query.png)
 
- * Designed a query to retrieve the last 12 months of precipitation data. Selecting only the date and prcp values.
- * Load the query results into a Pandas DataFrame and set the index to the date column.
-Sort the DataFrame values by date.
-Plot the results using the DataFrame plot method.
+The data shows that the highest levels of rainfall occured during the spring and fall months. While the lowest levels occured during the summer months. This information fits with what I already suspected, but provides valuable insight on the best travel dates for a trip.
 
 ### Station Analysis
 ![Station Analysis.png](https://github.com/SamLingle/Honolulu-Climate-Data-SQLite-Retrieval/blob/master/data_exploration_png_files/Temperature_Analysis_chart.png)
 
+ * TOBS - Temperature of Observed Station.
 
-Design a query to calculate the total number of stations.
-
-Design a query to find the most active stations.
-
-List the stations and observation counts in descending order.
-Which station has the highest number of observations?
-Hint: You may need to use functions such as func.min, func.max, func.avg, and func.count in your queries.
+To remove clutter, I found the most active station and visualized the most frequently observed temperatures to take an average of the weather. The temperature seems to trend around 75 degrees fahrenheit and range between 70 - 80 degrees. This data can be used to plan what kind of clothes to bring while traveling to the island of Oahu. 
 
 
 ### Temperature Analysis
 ![Temperature analysis.png](https://github.com/SamLingle/Honolulu-Climate-Data-SQLite-Retrieval/blob/master/data_exploration_png_files/Average_vacation_temp.png)
 
-
-The starter notebook contains a function called calc_temps that will accept a start date and end date in the format %Y-%m-%d and return the minimum, average, and maximum temperatures for that range of dates.
-Use the calc_temps function to calculate the min, avg, and max temperatures for your trip using the matching dates from the previous year (i.e., use "2017-01-01" if your trip start date was "2018-01-01").
-
-Plot the min, avg, and max temperature from your previous query as a bar chart.
-
-
-Use the average temperature as the bar height.
-Use the peak-to-peak (tmax-tmin) value as the y error bar (yerr).
+Created a bar chart looking at the average, minimum and maximum temperatures to plan for any extreme weather that could occur. found the max temperature of about 100 degrees and a minimum of 40. Both of which are temperatures that most people living in the united states should be well aquainted with. So I don't forsee those causing any issues while traveling. 
 
