@@ -36,7 +36,9 @@ $ jupyter notebook
 $ cd Honolulu-Climate-Data-SQLite-Retrieval
 $ python3 app.py
 ```
- 2. visit [http://localhost/5000](http://localhost/5000) on your browser
+ 2. visit [http://localhost/5000](http://localhost/5000) on your browser.
+ 3. You will see several path routes listed on the page. Copy your desired path and add it to the end of the http://localhost/5000 url and click enter. This will take you to a page where you can view the raw data of that path in JSON form.
+
 
 
 ## Results:
